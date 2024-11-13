@@ -1,6 +1,6 @@
 @media (max-width: 600px) {
     #img01, #img02 {
-        width: 100vw;
+        width: 100vw auto;
         height: auto;
         margin-bottom: 20px;
         display: block;
@@ -11,17 +11,5 @@
 
     section {
         padding: 10px;
-    }
-
-    section#img01 {
-        overflow: hidden;
-    }
-
-    section#img02 {
-        overflow: hidden;
-    }
-
-    header {
-        overflow: hidden;
     }
 }
