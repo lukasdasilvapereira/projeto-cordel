@@ -13,7 +13,7 @@
 }
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 header {
@@ -54,7 +54,7 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
-    max-width: 100%;
+    max-width: 100vw;
     overflow-x: hidden;
 }
 
@@ -63,6 +63,7 @@ section.imagem {
     background-size: cover;
     background-attachment: fixed;
     box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.521);
+    background-repeat: no-repeat;
 }
 
 section.imagem > p {
