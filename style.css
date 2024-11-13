@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Passion+One:wght@400;700;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap');
+
+* {
+   margin: 0px;
+   padding: 0px;
+    
+}
+
+:root {
+
+--fonte: "Sriracha", serif;
+--fonte01: "Passion one", serif;
+
+}
+
+header {
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-family: var(--fonte01);
+    font-size: 4em;
+    font-variant: small-caps;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header p {
+    color: gray;
+}
+
+main section p {
+    font-family: var(--fonte);
+    font-size: 1.5em;
+    line-height: 2em;
+    margin-bottom: 20px;
+    margin-top: 18px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+section.imagem {
+    background-color: rgb(53, 50, 50);
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 6px 6px 13px rgba(0, 0, 0, 0.521);
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+    width: 400px;
+    text-shadow: 1px 2px 0px black;
+    text-align: center;
+}
+
+section#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    
+}
+
+section#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
