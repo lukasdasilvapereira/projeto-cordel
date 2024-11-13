@@ -12,4 +12,16 @@
     section {
         padding: 10px;
     }
+
+    section#img01 {
+        overflow: hidden;
+    }
+
+    section#img02 {
+        overflow: hidden;
+    }
+
+    header {
+        overflow: hidden;
+    }
 }
